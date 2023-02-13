@@ -20,6 +20,10 @@
   line-height: 90px;
 }
 
+#header h1 .titulo{
+  font-size: 60px;
+}
+
 #menu{
   background: #ccc;
   width: 100%;
@@ -83,6 +87,9 @@
   display: block;
   width: 30%;
   float: left;
+  max-height: 290px;
+  border-bottom: 1px solid black;
+  overflow: hidden;
 }
 
 #lateral h3{
@@ -90,6 +97,8 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-bottom: 1px solid #ccc;
   text-transform: uppercase;
+  padding: 17.8px;
+  color:  rgb(77 55 97);;
 }
 
 #footer
