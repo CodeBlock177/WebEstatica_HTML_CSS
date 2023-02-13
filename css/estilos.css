@@ -1,0 +1,103 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#general{
+  width: 1200px;
+  margin: 0px auto;
+  margin-top: 15px;
+  box-shadow: 0px 5px 15px gray;
+}
+
+#header{
+  width: 100%;
+  height: 100px;
+  background: rgb(77 55 97);
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  line-height: 90px;
+}
+
+#menu{
+  background: #ccc;
+  width: 100%;
+}
+
+#menu ul li
+{
+  list-style: none;
+  float: left;
+  border-right: #b0acac solid;
+}
+
+#menu ul li a
+{
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  color: rgb(77 55 97);
+}
+
+#menu ul li:hover{
+  background: rgb(77 55 97);
+  cursor: pointer;
+}
+
+#menu ul li:hover a{
+  color: white;
+}
+
+.clearFix{
+  float: none;
+  clear: both;
+}
+
+#contenido >h2{
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  padding: 15px;
+  color: rgb(77 55 97);
+}
+
+#contenido{
+  width: 70%;
+  float: left;
+}
+
+#contenido .caja{
+  width: 40%;
+  height: 40%;
+  background: gray;
+  color: white;
+  float: left;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 20px 0px 20px 0px;
+}
+
+#lateral{
+  display: block;
+  width: 30%;
+  float: left;
+}
+
+#lateral h3{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-bottom: 1px solid #ccc;
+  text-transform: uppercase;
+}
+
+#footer
+{
+  width: 100%;
+  height: 20%;
+  background: #ccc;
+  height: 55px;
+  text-align: center;
+  line-height: 55px;
+}
